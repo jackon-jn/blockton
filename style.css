@@ -1,0 +1,4 @@
+:root{color-scheme:light dark;--fg:#1d1d1f;--bg:#fbfaf7;--accent:#e4572e}
+@media (prefers-color-scheme:dark){:root{--fg:#ececec;--bg:#16161a}}
+body{font:17px/1.6 system-ui,-apple-system,sans-serif;max-width:680px;margin:0 auto;padding:32px 16px;color:var(--fg);background:var(--bg)}
+a{color:var(--accent)}h1{line-height:1.2}nav a{margin-right:16px}footer{margin-top:48px;font-size:14px;opacity:.7}
